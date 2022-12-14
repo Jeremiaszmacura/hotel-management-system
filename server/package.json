@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "hotel-management-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "student project of hotel management system",
   "main": "server.js",
   "scripts": {
     "start": "nodemon --legacy-watch --ignore mongo-data -V src/server.js",
@@ -9,8 +9,16 @@
     "lint": "npx eslint ./",
     "seed": "node ./src/seeder/seedAll.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremiaszmacura/hotel-management-system.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeremiaszmacura/hotel-management-system/issues"
+  },
+  "homepage": "https://github.com/Jeremiaszmacura/hotel-management-system#readme",
   "dependencies": {
     "async": "^3.2.3",
     "bcrypt": "^5.0.1",

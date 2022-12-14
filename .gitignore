@@ -1,3 +1,4 @@
-.env
-.idea
-server/node_modules
+/server/.env
+/server/node_modules/
+server/.idea/
+.idea/
