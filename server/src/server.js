@@ -42,7 +42,7 @@ app.use(function (err, req, res) {
 
 // CONNECT TO DATABASE AND RUN SERVER
 // require('./config/mongooseLocalDB')
-// require('./config/passport')
+require('./config/passport')
 require('./config/mongooseAtlasDB')
 
 mongoose.connection.on('open', function () {
