@@ -27,6 +27,17 @@ app.use(express.json()) // all data send to api will be able to access as a json
 app.get('/', (req, res) => {
   res.send('Welcome to Hotel!')
 })
+
+// test
+app.post('/login', (req, res) => {
+  res.json({ 'error': [] })
+})
+
+app.get('/login', (req, res) => {
+  res.json({ 'mes': [] })
+})
+// konie testu
+
 app.use('/users', userRoutes)
 app.use('/bookings', bookingRoutes)
 app.use('/categories', roomRoutes)
