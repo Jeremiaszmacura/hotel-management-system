@@ -1,0 +1,20 @@
+.frame{
+    margin-top: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users{
+    margin: 20px 10px;
+}
+
+.users{
+    margin: 10px;
+    width: 50vw;
+    background-color: rgb(0, 147, 251);
+    box-shadow: rgb(0 0 0 / 60%) 1px 1px 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
