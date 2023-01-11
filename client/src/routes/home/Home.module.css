@@ -1,0 +1,29 @@
+.home {
+    display: block;
+    margin: 0 2vw;
+}
+
+.homeContent {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    margin-top: 15vh;
+}
+
+.photo img {
+    width: 23vw;
+    height: 23vw;
+    border-radius: 5%;
+    box-shadow: 0 0 15px 5px rgba(0, 196, 235, 0.27);
+}
+
+.title h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}

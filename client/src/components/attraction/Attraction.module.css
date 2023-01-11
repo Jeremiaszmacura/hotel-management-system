@@ -1,0 +1,30 @@
+.content {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 196, 235, 0.27);
+}
+
+.photo img {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 20px 0 0 20px;
+}
+
+.description {
+    width: 40vw;
+    margin: 0 20px;
+}
+
+.description h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.description li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
