@@ -1,5 +1,6 @@
 const express = require('express')
 const serviceController = require('../controllers/serviceController')
+const { checkIsInRole, isLoggedIn } = require('../middlewares/authMiddleware')
 
 const router = express.Router()
 
