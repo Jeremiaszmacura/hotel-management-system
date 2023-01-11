@@ -1,24 +1,30 @@
-//import React, { useEffect, useState } from 'react';
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Menu from "./pages/Menu";
-import Login from "./pages/Login";
-import Users from "./pages/Users";
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Navbar from "./components/navbar/Navbar";
+import Home from "./routes/home/Home";
+import Register from "./routes/register/Register";
+import Login from "./routes/login/Login";
+import Attractions from "./routes/attractions/Attractions";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/'>
-          <Route index element={<Menu />} />
-          <Route path='login' element={<Login/>}/>
-          <Route path='users' element={<Users/>}/>
-          <Route path='*' element={<p>No page</p>} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <div className="App">
+          <div className="app-flex-container">
+              <div>
+                  <Navbar/>
+              </div>
+            <div className="content">
+              <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/register" element={<Register />} />
+                  <Route path="/login" element={<Login />} />
+                  <Route path="/attractions" element={<Attractions />} />
+              </Routes>
+            </div>
+          </div>
+        </div>
+      </BrowserRouter>
   );
 }
 
-export default App
+export default App;

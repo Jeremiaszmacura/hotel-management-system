@@ -1,0 +1,25 @@
+.loginForm {
+    color: #1E90FF;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.loginForm h2 {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.loginForm button {
+    width: 100%;
+}
+
+.radioButtons {
+    display: flex;
+    margin-bottom: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.radio {
+    width: 200px;
+}
